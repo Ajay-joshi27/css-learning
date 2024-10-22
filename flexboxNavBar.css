@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center; /*Center the ul in the container */
+    background-color: grey;
+    list-style-type: none;
+    gap: 10px;
+    padding: 10px; 
+    align-items: center;/* Optional padding for the container */
+}
+
+/* .abc{
+    align-items: flex-end;
+    left: 20px;
+  
+} */
+.logo{
+    display: flex;
+    background-color: grey;
+    list-style-type: none;
+    gap: 10px;
+    padding: 10px; 
+    align-items: center;
+}
+ 

@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+    background:#ffc0cb;
+    color: rgb(64, 197, 37);
+    text-decoration-line:underline;
+}
+p{
+    font-size: medium;
+    text-align: center;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid red;
+    background-color: antiquewhite;
+    box-shadow: #ffc0cb;
+    background-size: contain;
+    
+}
