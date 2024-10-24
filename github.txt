@@ -1,3 +1,6 @@
+this txt filecontains how to use git
+
+
 echo "# css-learning" >> README.md
 git init
 git add README.md
