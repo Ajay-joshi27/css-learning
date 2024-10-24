@@ -4,14 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>css practise</title>
+    <style>
+        body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    gap: 10px;
+    padding: 10px;
+}
+
+.grid-item {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+    </style>
 </head>
 <body>
-    <nav>
-        <a href="Learningcss.html">CssBasics</a>
-        <a href="position.html">Positioning</a>
-        <a href="./badges.html">Badges</a>
-        <a href="./flex.html">FLEX CSS</a>
-        <a href="./flexboxNavBar.html">flexnavbar</a>
-    </nav>
+    <div class="grid-container">
+        <div class="grid-item"><a href="Learningcss.html">CssBasics</a></div>
+        <div class="grid-item"><a href="position.html">Positioning</a></div>
+        <div class="grid-item"><a href="./badges.html">Badges</a></div>
+        <div class="grid-item"><a href="./flex.html">FLEX CSS</a></div>
+        <div class="grid-item"> <a href="./flexboxNavBar.html">flexnavbar</a></div>
+        <div class="grid-item"> <a href="./Grid.html">GRID CSS</a></div>
+    </div>
+   
 </body>
 </html>

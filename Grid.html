@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="./grid.css"> -->
+    <title>grid</title>
+
+
+        <style>
+    .container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        background-color: #2196F3;
+        gap: 10px;
+        padding: 10px;
+        
+    }
+    h1{
+      text-align: center;
+      text-decoration: dotted;
+      background-color: #006fff37;
+    }
+    .container>div{
+        background-color:rgba(255, 255, 255, 0.8);
+        text-align: center;
+      padding: 20px 0;
+      font-size: 30px;
+      margin: 5px;
+    }
+    .item1 { 
+        grid-column-start: 1;
+      grid-column-end: 4;
+     }
+    .item2 { 
+        grid-row-start: 2;
+        grid-row-end: 4;
+     }
+    .item3 { 
+      grid-column-start: 2;
+      grid-column-end: 3;
+     }
+    .item4 { 
+      grid-column-start: 3;
+      grid-column-end:4 ;
+     }
+    .item5 { 
+    grid-column-start: 2;
+    grid-column-end:4;
+     }
+</style>    
+</head>
+<body>
+    <h1>GRID CSS</h1>
+    <p> <mark>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus temporibus nisi at nemo architecto? Veritatis recusandae architecto magni ut doloremque error vene harum voluptate fugiat repudiandae.
+    Numquam, libero quia, doloremque dolorem assumenda, ullam maiores at atque sit impedit autem architecto dolore? Culpa doloribus sint, neque, harum cum sequi, blanditiis odio iure nemo vel iste eius consequuntur.
+    Impedit provident vero sit, voluptatem ad incidunt nam, atque numquam labore earum magni praesentium libero suscipit iure veniam accusantium laborum id sint, adipisci magnam illo! Dolorem quos laudantium enim molestiae.</mark>  </p>
+    <div class="container">
+        <div class="item1">Header</div>
+        <div class="item2">Menu</div>
+        <div class="item3">Main</div>  
+        <div class="item4">Right</div>
+        <div class="item5">Footer</div>
+       
+    </div>
+</body>
+</html>
