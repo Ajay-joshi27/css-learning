@@ -5,63 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ONE-CARD</title>
     <link rel="stylesheet" href="onecard.css">
-    <style>
-    *{
-        padding: 0;
-        margin: 0;
-    }
-    .container{
-        /* background-color: #828080; */
-        max-width: 1100px;
-        margin: auto;
-        display: flex;
-        padding: 10px;
-        align-items: center;
-        justify-content: center;
-    }
-    .menu{
-        width: 850px;
-        /* background-color: #cbf132; */
-        display: flex;
-        gap: 40px;
-        justify-content: flex-end;
-        font-size: large;
-        padding: 8px 20px;
-        
-    
-    }
-    .menu>a{
-        text-decoration: none;
-        font-family: 'Manrope','sans-serif';
-       
-        color: #000000;
-        
-        
-    }
-    .logo{
-        /* background-color: #5bfa0c; */
-        width: 60px;
-        height: 39px;
-        
-    }
-    .button {
-        font-weight: 700;
-        color: #ffffff; /* White text color */
-        background-color: #1893f7; /* Blue background color */
-        font-family: 'Manrope', sans-serif; /* Ensuring font is applied */
-        font-size: 14px; /* Font size */
-        margin: 0 16px; /* Horizontal margin */
-        padding: 7px 8px; /* Padding */
-        text-decoration: none; /* Removes underline from link-style buttons */
-        border: none; /* Optional: removes border */
-        border-radius: 4px; /* Optional: rounded corners */
-        cursor: pointer; /* Optional: shows pointer cursor on hover */
-        display: inline-block; /* Optional: ensures it's treated as a block-level element */
-    }
-</style>
     </head>
-</head>
 <body>
+    <nav>
     <div class="container">
         <img class="logo" src="https://www.getonecard.app/images/One_logo_69by24.png" alt="logo">
         <div class="menu">
@@ -74,5 +20,24 @@
         </div>
         <a class="button" href="#">Apply Now</a>
     </div>
+    </nav>
+    <section class="main-content">
+        <div>
+            <h1 class="welcome">Say Hi to</h1>
+            <h1 id="name-company">One Credit Card</h1>
+            <h4 id="authore">Co-branded Card Issuers :</h4>
+
+        <img class="all-bank-img" src="https://www.getonecard.app/images/legal/Bank_Logos_All1.png" alt="img">
+        <p class=" below-p">India's best metal credit card. Built with full-stack tech. <br> Backed by the principles of simplicity, transparency, and <br> giving back control to the user.</p>
+        
+        <input class="btn-btn-applynow" type="button" value="Apply Now">
+    </div>   
+
+    <!-- div video section of hero video -->
+    <video class="video-hero" src="https://www.getonecard.app/images/homepage_28Oct24.mp4" autoplay muted loop>
+        Your browser does not support the video tag.
+      </video>
+          
+     </section>
 </body>
 </html>
